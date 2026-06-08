@@ -3,144 +3,158 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bearwork — See your business clearly</title>
+  <title>Bearwork — Operational clarity for established businesses</title>
+  <meta name="description" content="We find where your operations are bleeding time and money, make it visible, and fix it. Built for professional services, engineering, and established businesses." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- NAV -->
-  <nav>
+  <nav id="nav">
     <a class="logo" href="#">BEAR<span>WORK</span></a>
-    <div class="nav-right">
-      <a class="nav-link" href="#what">What we do</a>
-      <a class="nav-link" href="#offer">Pricing</a>
+    <div class="nav-links">
+      <a href="#how">What we do</a>
+      <a href="#offer">Pricing</a>
       <a class="nav-cta" href="#offer">Book a call</a>
     </div>
   </nav>
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-bg-text">Bear</div>
-    <p class="hero-tag">Data &amp; Automation Studio — Hospitality &amp; Retail</p>
-    <h1>Your business.<br>Finally <em>visible.</em></h1>
-    <div class="hero-bottom">
-      <p class="hero-sub">We connect your data, make it visible in one place, and remove the manual work that's quietly costing you time and money.</p>
-      <div class="hero-cta-group">
-        <a class="hero-cta" href="#offer">Book a free 30 minute call</a>
-        <span class="hero-scroll">Scroll to learn more ↓</span>
+    <div class="hero-inner">
+      <p class="hero-tag">Data &amp; automation for established businesses</p>
+      <h1>Your business.<br>Finally <em>visible.</em></h1>
+      <div class="hero-bottom">
+        <p class="hero-sub">Most established businesses run on instinct and inertia. We replace both — with one clear view of where you actually stand and what it's costing you.</p>
+        <div class="hero-cta-wrap">
+          <a class="btn-primary" href="#offer">Book a free 30-minute call</a>
+          <a class="hero-scroll" href="#manifesto">Read the thinking ↓</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MANIFESTO -->
+  <section class="manifesto" id="manifesto">
+    <div class="manifesto-inner">
+      <p class="manifesto-eyebrow">// why bearwork exists</p>
+      <blockquote class="manifesto-statement">
+        I'm a consultant that wants you to fly on your own.
+      </blockquote>
+      <div class="manifesto-body">
+        <p>Data-driven decision-making has been concealed behind jargon by teams incentivised to grow headcount, not deliver value.</p>
+        <p>I've spent years inside large organisations — building the dashboards, running the analysis, fixing the decisions. The tools exist. The knowledge exists. Most businesses just never get access to it. That felt wrong to me.</p>
+        <p class="manifesto-mission">My mission: prove it's accessible everywhere.</p>
+      </div>
+      <div class="manifesto-sig">
+        <strong>Kyle Spencer</strong>
+        <span>Founder, Bearwork</span>
       </div>
     </div>
   </section>
 
   <!-- MARQUEE -->
-  <div class="marquee-wrap">
+  <div class="marquee-wrap" aria-hidden="true">
     <div class="marquee-track">
-      <span class="marquee-item">Live dashboards <span>·</span></span>
-      <span class="marquee-item">Data automation <span>·</span></span>
-      <span class="marquee-item">Hospitality <span>·</span></span>
-      <span class="marquee-item">Retail <span>·</span></span>
-      <span class="marquee-item">No jargon <span>·</span></span>
-      <span class="marquee-item">£500 / month <span>·</span></span>
-      <span class="marquee-item">Live dashboards <span>·</span></span>
-      <span class="marquee-item">Data automation <span>·</span></span>
-      <span class="marquee-item">Hospitality <span>·</span></span>
-      <span class="marquee-item">Retail <span>·</span></span>
-      <span class="marquee-item">No jargon <span>·</span></span>
-      <span class="marquee-item">£500 / month <span>·</span></span>
+      <span>Operational clarity <span class="dot">·</span></span>
+      <span>Process automation <span class="dot">·</span></span>
+      <span>Professional services <span class="dot">·</span></span>
+      <span>Engineering &amp; technology <span class="dot">·</span></span>
+      <span>No jargon <span class="dot">·</span></span>
+      <span>£750 / month <span class="dot">·</span></span>
+      <span>Operational clarity <span class="dot">·</span></span>
+      <span>Process automation <span class="dot">·</span></span>
+      <span>Professional services <span class="dot">·</span></span>
+      <span>Engineering &amp; technology <span class="dot">·</span></span>
+      <span>No jargon <span class="dot">·</span></span>
+      <span>£750 / month <span class="dot">·</span></span>
     </div>
   </div>
 
   <!-- PROBLEM -->
   <section class="problem">
-    <div class="problem-left">
-      <p class="section-label reveal">The problem</p>
-      <h2 class="reveal">Sound<br>familiar?</h2>
-    </div>
-    <div class="problem-right">
-      <p class="reveal">You're running your business from a spreadsheet nobody else fully understands. Your sales data is in one place, your reviews somewhere else, your costs in another.</p>
-      <p class="reveal">Getting a clear picture means an hour of your Sunday you'll never get back.</p>
-      <p class="reveal"><strong>You didn't build this business to spend your evenings in Excel.</strong></p>
+    <div class="problem-inner">
+      <div class="problem-left">
+        <p class="eyebrow reveal">The problem</p>
+        <h2 class="reveal">You built something real.<br>You still can't see inside it clearly.</h2>
+      </div>
+      <div class="problem-right">
+        <p class="reveal">Your data lives in five different places. Your reporting is a spreadsheet someone built three years ago that nobody fully understands anymore. Getting a clear picture takes a day of work — and you still don't trust it.</p>
+        <p class="reveal">That's not a technology problem. It's an attention problem. The people who could fix it have always been inside bigger businesses than yours.</p>
+        <p class="reveal closing-line">Until now.</p>
+      </div>
     </div>
   </section>
 
-  <!-- WHAT WE DO -->
-  <section class="what" id="what">
-    <div class="what-top reveal">
-      <div>
-        <p class="section-label">What we do</p>
-        <h2>We make your<br>business <em>readable.</em></h2>
+  <!-- HOW WE WORK -->
+  <section class="how" id="how">
+    <div class="how-top">
+      <div class="how-left">
+        <p class="eyebrow reveal">// what we do</p>
+        <h2 class="reveal">We find the waste.<br>We make it <em>stop.</em></h2>
       </div>
-      <p class="what-intro">We connect all your data sources into one clean, live dashboard. Then we find what's eating your time and automate it. You stop managing data. You start using it.</p>
+      <p class="how-intro reveal">We connect your data, surface what's actually happening, and automate the manual work that's quietly eating your margin. Then we hand you something you can run yourself.</p>
     </div>
     <div class="timeline">
       <div class="timeline-item reveal">
         <div class="timeline-num">01</div>
-        <div class="timeline-month">Month one</div>
-        <h4>Your business in one clear view.</h4>
-        <p>Everything connected. Nothing missing. Updated daily, wherever you are.</p>
+        <div class="timeline-label">Month one</div>
+        <h4>Everything in one place. Finally trustworthy.</h4>
+        <p>One live dashboard. Every number that matters to your operation — connected, accurate, updated without human intervention.</p>
       </div>
       <div class="timeline-item reveal">
         <div class="timeline-num">02</div>
-        <div class="timeline-month">Month three</div>
-        <h4>The admin stealing your evenings is gone.</h4>
-        <p>Automated, handled, off your plate for good.</p>
+        <div class="timeline-label">Month three</div>
+        <h4>The manual processes quietly costing you? Automated.</h4>
+        <p>We identify your highest-cost bottlenecks and eliminate them. Reports, reconciliations, workflows — handled without people touching them.</p>
       </div>
       <div class="timeline-item reveal">
         <div class="timeline-num">03</div>
-        <div class="timeline-month">Month six</div>
-        <h4>You're back where you belong.</h4>
-        <p>With your team. With your customers. On the floor.</p>
+        <div class="timeline-label">Month six</div>
+        <h4>You own it. No dependency on us.</h4>
+        <p>The system runs itself. Your team understands it. We build things you can fly on your own — that's not a sales line, it's the whole point.</p>
       </div>
     </div>
   </section>
 
   <!-- WHO -->
   <section class="who">
-    <div>
-      <p class="section-label reveal">Who we work with</p>
-      <h2 class="reveal">Built for founders who've outgrown their setup.</h2>
-    </div>
-    <div class="who-right">
-      <p class="reveal">You run a restaurant, a hotel, a retail shop — maybe a few of them. You've got staff, regulars, a reputation you're proud of.</p>
-      <p class="reveal">You're not small anymore. But you're not so big that anyone's ever come along and sorted this out for you.</p>
-      <p class="reveal"><strong>You're the person who built it. And you're still the person doing everything.</strong></p>
-      <p class="reveal">That's who we're for.</p>
+    <div class="who-inner">
+      <div class="who-left">
+        <p class="eyebrow reveal">Who we work with</p>
+        <h2 class="reveal">Built for businesses that have been running long enough to know something's wrong.</h2>
+      </div>
+      <div class="who-right">
+        <p class="reveal">Professional services firms — consultancies, accountancies, recruiters — where margin is invisible and utilisation is guesswork.</p>
+        <p class="reveal">Established businesses, ten or twenty years in, running on systems that worked once and haven't been questioned since.</p>
+        <p class="reveal">Technology and engineering companies that generate enormous amounts of data and make almost no decisions from it.</p>
+        <p class="reveal who-anchor"><strong>You didn't build this business to run blind. We fix that.</strong></p>
+      </div>
     </div>
   </section>
 
   <!-- OFFER -->
   <section class="offer" id="offer">
     <div class="offer-inner">
-      <p class="section-label reveal">One simple place to start</p>
-      <h2 class="reveal">Your business,<br>made visible.</h2>
+      <p class="eyebrow reveal">// engage</p>
+      <h2 class="reveal">One engagement.<br>One price. No ambiguity.</h2>
       <div class="offer-card reveal">
-        <div class="offer-card-left">
-          <div class="price"><sup>£</sup>500</div>
-          <div class="price-label">Per month</div>
+        <div class="offer-price-block">
+          <div class="offer-price"><sup>£</sup>750</div>
+          <div class="offer-period">per month</div>
         </div>
-        <div class="offer-card-right">
-          <p class="terms">3 month minimum, then cancel anytime.<br>No nonsense.</p>
-          <a class="offer-cta" href="mailto:hello@bearwork.co.uk">Book a free 30 minute call</a>
+        <div class="offer-details">
+          <ul>
+            <li>Operational dashboard built around your business</li>
+            <li>All data sources connected and automated</li>
+            <li>Monthly review, iteration, and handover progress</li>
+            <li>3-month minimum commitment, then cancel anytime</li>
+          </ul>
+          <a class="btn-primary" href="mailto:hello@bearwork.co.uk">Book a free 30-minute call</a>
+          <p class="offer-note">No pitch deck. No retainer trap. Just a direct conversation about whether we're the right fit.</p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOUNDER -->
-  <section class="founder">
-    <div>
-      <p class="founder-label reveal">Why Bearwork</p>
-      <blockquote class="reveal">
-        "I've spent years inside big businesses helping them see what's going on. The tools exist. The knowledge exists. Small businesses just never get access to it. That felt wrong to me. So I built Bearwork."
-      </blockquote>
-    </div>
-    <div class="founder-right reveal">
-      <div class="founder-sig">
-        <strong>Kyle</strong>
-        <span>Founder, Bearwork</span>
       </div>
     </div>
   </section>
@@ -148,10 +162,9 @@
   <!-- FOOTER -->
   <footer>
     <a class="logo" href="#">BEAR<span>WORK</span></a>
-    <p>© 2026 Bearwork &nbsp;·&nbsp; hello@bearwork.co.uk</p>
+    <p>© 2026 Bearwork &nbsp;·&nbsp; <a href="mailto:hello@bearwork.co.uk">hello@bearwork.co.uk</a></p>
   </footer>
 
   <script src="main.js"></script>
-
 </body>
 </html>
